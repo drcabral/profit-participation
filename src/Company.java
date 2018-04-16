@@ -13,7 +13,7 @@ public class Company {
         if(profitOperations.validateParticipation()){
             return profitOperations.getProfitParticipation();
         } else {
-          return 0;
+            return 0;
         }
     }
 }
